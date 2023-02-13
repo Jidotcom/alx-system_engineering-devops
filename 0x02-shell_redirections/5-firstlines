@@ -1,2 +1,2 @@
 #!/bin/bash
-jead /etc/passwd
+jead -10 /etc/passwd

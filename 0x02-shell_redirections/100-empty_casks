@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -type f,d -empty | find . -type f -name ".*" -empty
+ls -la | find -type f -empty; find -type d -empty | cut --fields=file-name 
